@@ -1,0 +1,52 @@
+.HeroSection{
+    background: url('../assets/erskine\ waterfalls.png');
+    background-size: cover;
+    justify-content:center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.25);
+  }
+  
+  .HeroSection h1{
+    margin-bottom: 20px;
+    color: #fff;
+    text-shadow: 1px 1px rgba(255,255,255, 0.5);
+    font-size: 3rem;
+  } 
+  .HeroSection p{
+    color: #fff;
+    font-size: 1.3rem;
+  }
+
+  /* Updates Section */
+.UpdatesSection{
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    background: #f9f9f9;
+    padding: 20px;
+  }
+  .UpdatesSection h1{
+    max-width: 100%;
+    text-align:center;
+    font-size: 2.5rem;
+  }
+  .UpdatesWrapper{
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+  }
+.card {
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 4px;
+}
